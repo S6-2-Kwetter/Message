@@ -34,6 +34,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Setup Java JDK 17
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
     - name: Build
       run: |
         gradle bootjar
@@ -42,14 +47,24 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
-      - name: Test
-        run: |
-          gradle check
+    - name: Setup Java JDK 17
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+    - name: Test
+      run: |
+        gradle check
 
   release:
     runs-on: docker-latest
     continue-on-error: true
     steps:
+    - name: Setup Java JDK 17
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
     - name: Release
       run: |
         gradle bootjar
@@ -58,6 +73,11 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
+    - name: Setup Java JDK 17
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
     - name: Run
       run: |
         gradle bootjar
