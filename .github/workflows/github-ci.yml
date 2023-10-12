@@ -50,7 +50,7 @@ jobs:
           restore-keys: ${{ runner.os }}-m2   
 
       - name: Build with Gradle
-        run: mvn -B package --file Message/build.gradle
+        run: gradle -B package --file Message/build.gradle
 
   # -------------------------------------------------------------
   
