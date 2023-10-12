@@ -29,19 +29,42 @@ jobs:
   #   - name: Build with Gradle
   #     uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
   #     with:
-  #       arguments: build   
-  
+  #       arguments: build  
+
   build:
+    name: Build message service
     runs-on: ubuntu-latest
     steps:
-    - name: Setup Java JDK 17
-      uses: actions/setup-java@v3
-      with:
-        java-version: '17'
-        distribution: 'temurin'
-    - name: Build
-      run: |
-        gradle bootjar
+      - uses: actions/checkout@v2    
+      - name: Setup JDK 17
+        uses: actions/setup-java@v2
+        with:
+        - java-version: '17'
+        - distribution: 'temurin'
+
+      - name: Cache the Gradle packages to speed up build
+        uses: actions/cache@v2
+        with:
+        - path: ~/.m2
+        - key: ${{ runner.os }}-m2-${{ hashFiles('**/build.gradle') }}
+        - restore-keys: ${{ runner.os }}-m2   
+
+        - name: Build with Gradle
+          run: mvn -B package --file Message/build.gradle
+
+  # -------------------------------------------------------------
+  
+  # build:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - name: Setup Java JDK 17
+  #     uses: actions/setup-java@v3
+  #     with:
+  #       java-version: '17'
+  #       distribution: 'temurin'
+  #   - name: Build
+  #     run: |
+  #       gradle bootjar
 
   test:
     runs-on: ubuntu-latest
@@ -81,4 +104,5 @@ jobs:
     - name: Run
       run: |
         gradle bootjar
+      
 
