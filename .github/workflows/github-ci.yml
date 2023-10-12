@@ -35,13 +35,6 @@ jobs:
     name: Build message service
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2    
-      - name: Setup JDK 17
-        uses: actions/setup-java@v2
-        with:
-          java-version: '17'
-          distribution: 'temurin'
-
       - name: Cache the Gradle packages to speed up build
       - uses: actions/checkout@v3
       - uses: actions/setup-java@v3
