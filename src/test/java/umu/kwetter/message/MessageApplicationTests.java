@@ -9,5 +9,5 @@ class MessageApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
+	
 }
