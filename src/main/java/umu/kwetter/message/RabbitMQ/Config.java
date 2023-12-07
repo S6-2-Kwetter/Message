@@ -7,8 +7,8 @@ import org.springframework.amqp.core.TopicExchange;
 import org.springframework.context.annotation.Bean;
 
 public class Config {
-    public static final String topicExchangeName = "message-exchange";
-    static final String queueName = "message-queue";
+    public static final String topicExchangeName = "person-exchange";
+    static final String queueName = "person-queue";
 
     @Bean
     Queue queue() {
@@ -24,5 +24,4 @@ public class Config {
     Binding binding(Queue queue, TopicExchange exchange) {
         return BindingBuilder.bind(queue).to(exchange).with("msg");
     }
-
 }

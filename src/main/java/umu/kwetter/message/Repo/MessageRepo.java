@@ -7,4 +7,5 @@ import java.util.Optional;
 
 public interface MessageRepo extends MongoRepository<Message, String> {
     Optional<List<Message>> findByUserId(Long userId);
+    //Long deleteByUserId(Long userId);
 }
