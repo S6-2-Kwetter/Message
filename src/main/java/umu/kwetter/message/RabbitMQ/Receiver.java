@@ -1,13 +1,22 @@
 package umu.kwetter.message.RabbitMQ;
 
+import jakarta.annotation.Resource;
+import org.springframework.stereotype.Component;
+import umu.kwetter.message.Service.MessageService;
+
 import java.util.concurrent.CountDownLatch;
 
+@Component
 public class Receiver {
     private CountDownLatch latch = new CountDownLatch(1);
 
-    public void receive(String message) {
-        System.out.println("Received <" + message + ">");
+    @Resource
+    MessageService service;
+
+    public void receive(Long id) {
+        System.out.println("Received <" + id + ">");
         latch.countDown();
+        service.delete(id);
     }
 
     public CountDownLatch getLatch() {

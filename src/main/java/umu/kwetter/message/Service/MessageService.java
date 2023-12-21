@@ -25,7 +25,7 @@ public class MessageService implements IMessageService {
         int messageCount = messages.size();
         if(messageCount > 0){
             for(Message message : messages){
-                repo.delete(message);
+                repo.deleteByUserId(message.getUserId());
             }
         }
     }
