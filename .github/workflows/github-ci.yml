@@ -55,6 +55,7 @@ jobs:
           distribution: 'temurin'
       - name: Test
         run: |
+          gradle build --no-daemon
           gradle check
 
       # - name: Build with Gradle
