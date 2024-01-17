@@ -69,11 +69,11 @@ jobs:
       
       - name: Log in to Docker Hub
         # uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a
-        uses: docker/login-action@v2
+        uses: docker/login-action@v3
         with:
           registry: ${{ secrets.ENVIRONMENT_REGISTRY }}
           username: ${{ secrets.GIT_USERNAME }}
-          password: ${{ secrets.GIT_PASSWORD }}
+          password: ${{ secrets.GIT_TOKEN }}
       
       - name: Extract metadata (tags, labels) for Docker
         id: meta
