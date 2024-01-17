@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6751b979-8242-45a1-9c72-bdb2c4fe53fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/umu.kwetter.message.MessageApplicationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/umu.kwetter.message.MessageApplicationTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/umu.kwetter.message.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/umu.kwetter.message.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-umu.kwetter.message.MessageApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-umu.kwetter.message.MessageApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MessageController.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umu/kwetter/message/RabbitMQ/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umu/kwetter/message/RabbitMQ/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umu/kwetter/message/RabbitMQ/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umu/kwetter/message/RabbitMQ/Receiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umu/kwetter/message/RabbitMQ/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umu/kwetter/message/RabbitMQ/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umu/kwetter/message/Repo/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umu/kwetter/message/Repo/MessageRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umu/kwetter/message/Service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umu/kwetter/message/Service/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +174,7 @@
       <workItem from="1701939187805" duration="49000" />
       <workItem from="1701955513836" duration="2278000" />
       <workItem from="1703146270549" duration="8334000" />
+      <workItem from="1705482339032" duration="73000" />
     </task>
     <servers />
   </component>
