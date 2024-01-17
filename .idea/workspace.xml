@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6751b979-8242-45a1-9c72-bdb2c4fe53fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +34,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="message" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="message" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -174,7 +167,7 @@
       <workItem from="1701939187805" duration="49000" />
       <workItem from="1701955513836" duration="2278000" />
       <workItem from="1703146270549" duration="8334000" />
-      <workItem from="1705482339032" duration="73000" />
+      <workItem from="1705482339032" duration="2403000" />
     </task>
     <servers />
   </component>
